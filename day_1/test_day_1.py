@@ -1,4 +1,4 @@
-from main import find_max_cal, find_top_3_cal
+from day_1 import find_max_cal, find_top_3_cal
 
 testData = '''1000
 2000
