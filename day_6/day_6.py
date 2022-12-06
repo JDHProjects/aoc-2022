@@ -1,8 +1,6 @@
 def search(x, data):
     buffer = data[:x-1]
-    
     for i in range(x-1,len(data)):
-        
         if len(buffer) >= x:
             buffer = buffer[1-x:]
         buffer+=data[i]
